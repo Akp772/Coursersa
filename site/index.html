@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Coursera</title>
+	<title>Survey From</title>
 </head>
 <body>
-<h1>Hello Coursera!</h1>	
+	<form>
+		<div align="left">
+			<h1>Employee Interests Survey form</h1>
+			Enter Your name:
+				<input type="text" name="username" size=35 maxlength="35">
+			</br></br>
+			 Enter Your Department:
+			 <input type="text" name="Deptt" size=35 maxlength="35"><br><br>
+			 Tell us a little about Yourself:
+			 <br>
+			 <textarea name="comments" cols=30 rows="4"></textarea>		<br><br>
+			 Do you excercise at home?
+			 <input type="radio" name="exe" value="1">Yes
+			 <input type="radio" name="exe" value="2">No
+			 <p>
+			 How do you like to read about your favorite topics?</p>
+			 <input type="checkbox" name="Books">Books
+			 <input type="checkbox" name="Online Resources">Online Resources
+			 <input type="checkbox" name="Phone apps">Phone apps
+			 <input type="checkbox" name="Magazines">Magazines
+             <br><br>
+			 What genre of movies do you like?
+			 <select name="movie">
+			 	<option value="1" selected="true">Comdey</option>
+			 	<option value="2">Romance</option>
+			 	<option value="3">Thriller</option>
+			 	<option value="4">Horror</option>
+			 	<option value="5">Biopics</option>
+			 </select>
+			 <br><br>
+			 <input type="submit" value="Submit" >
+		</div>
+	</form>
 </body>
 </html>
